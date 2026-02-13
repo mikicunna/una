@@ -1,0 +1,103 @@
+body {
+  background-color: #000000;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  display: grid;
+  top: 0;
+  margin: 0;
+  padding-top: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#naslov {
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Merck Web";
+  font-size: 20px;
+  color: #FEEAC9;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+#meni {
+  justify-self: end;
+  margin-right: 20px;
+}
+
+p {
+  font-family: "Merck Web";
+  font-size: 20px;
+  color: #FFCDC9;
+  margin: 0;
+}
+
+a {
+  color: #FEEAC9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FEEAC9;
+}
+
+#projekti img {
+  width: 10px; 
+  height: auto;
+}
+
+
+h2 {
+  font-family: "Merck Web";
+  font-weight: 500;
+  font-size: 20px;
+  color: #FEEAC9;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+#projekti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+
+.projekat {
+  transition: transform 0.3s ease;
+}
+
+.projekat:hover {
+ transform: scale(1.05);
+  cursor: pointer;
+}
+
+#projekti img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 100px 10vw;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
